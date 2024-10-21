@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    background-color: #9cdfb0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top, green, white);
+}
+h1{
+    color: #08792a;
+}
+h1#principal {
+    text-align: center;
+    background-color: #08792a;
+    color: aliceblue;
+}
+h2{
+    color:#65bd7f
+}
