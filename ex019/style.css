@@ -3,16 +3,32 @@
 body {
     background-color: #9cdfb0;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to top, green, white);
+
 }
 h1{
     color: #08792a;
 }
 h1#principal {
     text-align: center;
-    background-color: #08792a;
+    background-color: #3c8053;
     color: aliceblue;
 }
 h2{
     color:#65bd7f
+}
+
+.basico{
+    color:#3c8053
+}
+
+.intermediario{
+    color:rgb(141, 165, 2)
+}
+
+.avançado{
+    color:rgb(95, 3, 3)
+}
+
+.destaque{
+    color:aqua
 }
