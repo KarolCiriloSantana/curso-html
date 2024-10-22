@@ -6,8 +6,51 @@
     <title>Grouping Tags</title>
     <style>
         body{
-            backgroud-color: dingrey;
+            background-color: grey;
+    
         }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: grey;
+            padding: 3px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article{
+            background-color:lightgray;
+        }
+
+        article > aside{
+            background-color: green;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            
+        }
+
     </style>
 </head>
 <body>
@@ -21,9 +64,9 @@
             <a href="#">Link</a>
         </nav>
     </header>
+
     <main>
         <section id="assuntos">
-
         </section>
         <section id="notícias">
             <article>
@@ -33,10 +76,9 @@
             <aside>
                 <p>Artigo escrito por José daSilva</p>
             </aside>
-            
         </section>
-
     </main>
+    
     <footer>
         <p>Desenvolvido pelo CursoemVídeo</p>
     </footer>
