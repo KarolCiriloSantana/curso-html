@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-
+/*como adcionar fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chicle&display=swap');
 
 @font-face {
@@ -31,6 +31,7 @@
 
 }
 
+/*seletor iniversal*/
 * {
    margin:0px;
    padding: 0px;
@@ -43,13 +44,15 @@ body{
 header{
     background-image:linear-gradient(to top, #1A5C38, #3BD27F);
 }
+
+/*seletores filhos*/
 header > h1 {
     
     color: white;
     font-family: var(--fonte-destaque);
 }
 
-header>p {
+header >p {
     color:white;
 }
 
