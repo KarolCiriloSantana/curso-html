@@ -28,6 +28,13 @@
         .num{
             text-align: right;
         }
+
+        caption {
+            background-color: lightgray;
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px;
+        }
         
     </style>
 </head>
@@ -37,7 +44,8 @@
     <!-- ANATOMIA PARA TABELAS GRANDES
 
     TABLE
-        THEAD
+        CAPITION (legenda da tabela)
+        THEAD (cabeçlho)
             TR,TD,TH
         TBODY
             TR,TD,TH
@@ -47,10 +55,11 @@
     -->
     
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th> <!-- não é td pois o dado é do head-->
-                <th>População</th>
+                <th scope="col">Estado</th> <!-- não é td pois o dado é do head | os dados estão embaixo-->
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
 
@@ -106,7 +115,7 @@
 
         </tbody>
 
-        <tfoot>
+        <tfoot scope="row">
             <tr>
                 <th>Total de habitantes</th>
                 <th><strong>101 487 907</strong></td>
