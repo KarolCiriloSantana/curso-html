@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        th {
+            border: 1px solid black;
+            background-color: gray;
+            color:white;
+            padding: 10px;
+        }
+        td {
+            border: 1px solid black;
+            text-align: center; 
+        }
+        .num{
+            text-align: right;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+
+    <!-- ANATOMIA PARA TABELAS GRANDES
+
+    TABLE
+        THEAD
+            TR,TD,TH
+        TBODY
+            TR,TD,TH
+        TFOOT
+            TR,TD,TH
+            
+    -->
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th> <!-- não é td pois o dado é do head-->
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>AL</td>
+                <td class="num">3 337 357</td>
+            </tr>
+            <tr>
+                <td>SP</td>
+                <td  class="num">45 946 957</td>
+            </tr>
+            <tr>
+                <td>SC</td>
+                <td  class="num">4 237 781</td>
+            </tr>
+            <tr>
+                <td>PE</td>
+                <td  class="num">3 337 357</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td  class="num">45 946 957</td>
+            </tr>
+            <tr>
+                <td>RO</td>
+                <td  class="num">4 237 781</td>
+            </tr>
+            <tr>
+                <td>BH</td>
+                <td  class="num">3 337 357</td>
+            </tr>
+            <tr>
+                <td>RJ</td>
+                <td  class="num">45 946 957</td>
+            </tr>
+            <tr>
+                <td>AC</td>
+                <td  class="num">4 237 781</td>
+            </tr>
+            <tr>
+                <td>AL</td>
+                <td  class="num">3 337 357</td>
+            </tr>
+            <tr>
+                <td>PR</td>
+                <td  class="num">45 946 957</td>
+            </tr>
+            <tr>
+                <td>DF</td>
+                <td  class="num">4 237 781</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <th><strong>101 487 907</strong></td>
+            </tr>
+
+        </tfoot>
+    </table>
+    
+</body>
+</html>
