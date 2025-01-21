@@ -8,20 +8,22 @@
     <style>
         table {
           width: 400px;
+          height: 400px;
           border-collapse:collapse;
         }
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center;  /*alinhamento horizontal*/
+            vertical-align: top; /*alinhamento vertical*/
         }
+        
+        .numero {
+            text-align: right;
+        }
+    
 
-        tr.linha {
-            background-color: gray;
-        }
-
-        td.dado {
-            background-color: purple;
-        }
+        
     </style>
 </head>
 <body>
@@ -31,9 +33,9 @@
         <tr> <!--linha 1-->
             <td>A1</td>
             <td>B1</td>
-            <td>C1</td>
+            <td class="numero">C1</td>
         </tr>
-        <tr class="linha"> <!--linha 2-->
+        <tr> <!--linha 2-->
             <td>A2</td>
             <td>B2</td>
             <td>C2</td>
@@ -41,7 +43,7 @@
         <tr> <!--linha 3-->
             <td>A3</td>
             <td>B3</td>
-            <td class="dado">C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr> <!--linha 4-->
             <td>A4</td>
