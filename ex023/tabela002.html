@@ -15,16 +15,20 @@
             width: 400px;
         }
 
-        th {
+        thead,tfoot {
             border: 1px solid black;
-            background-color: gray;
+            background-color: #383838;
             color:white;
             padding: 10px;
         }
-        td {
+
+       
+       th, td {
             border: 1px solid black;
             text-align: center; 
+            padding: 10px;
         }
+
         .num{
             text-align: right;
         }
@@ -34,6 +38,11 @@
             font-size: 1.2em;
             font-weight: bold;
             padding: 10px;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: gray;
+
         }
         
     </style>
